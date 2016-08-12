@@ -2,6 +2,7 @@
 using System.Linq;
 using System.IO;
 using System.Reflection;
+using c = System.Console;
 
 namespace RandomizeFileLines
 {
@@ -14,27 +15,27 @@ namespace RandomizeFileLines
 		/// <param name="args">Аргументы командной строки</param>
 		private static void Main(string[] args)
 		{
-			Console.Clear();
-			Console.Title = "Randomize File Lines";
-			Console.CursorVisible = false;
-			Console.WriteLine();
-			Console.WriteLine(" *");
-			Console.WriteLine($" * Randomize File Lines version {Assembly.GetEntryAssembly().GetName().Version}");
-			Console.WriteLine(" * http://computerraru.ru/software/rfl");
-			Console.WriteLine(" * Larin Alexsandr");
-			Console.WriteLine(" *");
-			Console.WriteLine();
-			Console.ForegroundColor = ConsoleColor.White;
+			c.Clear();
+			c.Title = "Randomize File Lines";
+			c.CursorVisible = false;
+			c.WriteLine();
+			c.WriteLine(" *");
+			c.WriteLine($" * Randomize File Lines version {Assembly.GetEntryAssembly().GetName().Version}");
+			c.WriteLine(" * http://computerraru.ru/software/rfl");
+			c.WriteLine(" * Larin Alexsandr");
+			c.WriteLine(" *");
+			c.WriteLine();
+			c.ForegroundColor = ConsoleColor.White;
 			if (!args.Length.Equals(1))
 			{
-				Console.WriteLine("   Ошибочка...");
-				Console.WriteLine("   Укажите первым параметром имя файла, например:");
-				Console.WriteLine();
-				Console.WriteLine("   > RandomizeFileLines.exe worktodo.txt");
-				Console.WriteLine();
-				Console.ForegroundColor = ConsoleColor.Gray;
-				Console.WriteLine("   Press a key to exit...");
-				Console.ReadKey();
+				c.WriteLine("   Ошибочка...");
+				c.WriteLine("   Укажите первым параметром имя файла, например:");
+				c.WriteLine();
+				c.WriteLine("   > RandomizeFileLines.exe worktodo.txt");
+				c.WriteLine();
+				c.ForegroundColor = ConsoleColor.Gray;
+				c.WriteLine("   Press a key to exit...");
+				c.ReadKey();
 				return;
 			}
 			if (args.Length.Equals(0)) return;

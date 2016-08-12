@@ -1,4 +1,4 @@
-# Random File Lines
+# Randomize File Lines
 
 Console software for sorting file lines randomly.
 
