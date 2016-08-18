@@ -3,6 +3,7 @@ using System.Linq;
 using System.IO;
 using System.Reflection;
 using c = System.Console;
+using e = System.Environment;
 
 namespace RandomizeFileLines
 {
@@ -18,21 +19,11 @@ namespace RandomizeFileLines
 			c.Clear();
 			c.Title = "Randomize File Lines";
 			c.CursorVisible = false;
-			c.WriteLine();
-			c.WriteLine(" *");
-			c.WriteLine($" * Randomize File Lines version {Assembly.GetEntryAssembly().GetName().Version}");
-			c.WriteLine(" * http://computerraru.ru/software/rfl");
-			c.WriteLine(" * Larin Alexsandr");
-			c.WriteLine(" *");
-			c.WriteLine();
+			c.Write($"{e.NewLine} *{e.NewLine} * Randomize File Lines version {Assembly.GetEntryAssembly().GetName().Version}{e.NewLine} * http://computerraru.ru/software/rfl{e.NewLine} * Larin Alexsandr{e.NewLine} *{e.NewLine}");
 			c.ForegroundColor = ConsoleColor.White;
 			if (!args.Length.Equals(1))
 			{
-				c.WriteLine("   Ошибочка...");
-				c.WriteLine("   Укажите первым параметром имя файла, например:");
-				c.WriteLine();
-				c.WriteLine("   > RandomizeFileLines.exe worktodo.txt");
-				c.WriteLine();
+				c.WriteLine($"{e.NewLine}   Ошибочка...{e.NewLine}   Укажите первым параметром имя файла, например:{e.NewLine}{e.NewLine}   > RandomizeFileLines.exe worktodo.txt{e.NewLine}");
 				c.ForegroundColor = ConsoleColor.Gray;
 				c.WriteLine("   Press a key to exit...");
 				c.ReadKey();
