@@ -3,14 +3,19 @@
 Console software for sorting file lines randomly.
 
 # Using
-You can just start the program without any command-line arguments and you'll get information about command-line. Or you can add filename and it's lines will be randomized:
+You can just start the program without any command-line arguments and you'll get information about command-line. Or you can add filename and all lines inside it will be randomized:
 ```sh
 > RandomFileLines.exe [FileName]
 ```
 
+# History
+
+**2018-03-25**
+Software was updated to .NET Framework 4.7.1, and added .NET Core 2 version.
+
 # Join my team
 
-Join my [GIMPS](http://www.mersenne.org) team ComputerraRU **[here](http://computerraru.ru)**.
+Join my [GIMPS](http://www.mersenne.org) team ComputerraRU **[here](https://computerraru.ru)**.
 
 # Links
 - [Twitter][tw]

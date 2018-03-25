@@ -19,11 +19,11 @@ namespace RandomizeFileLines
 			c.Clear();
 			c.Title = "Randomize File Lines";
 			c.CursorVisible = false;
-			c.Write($"{e.NewLine} *{e.NewLine} * Randomize File Lines version {Assembly.GetEntryAssembly().GetName().Version}{e.NewLine} * http://computerraru.ru/software/rfl{e.NewLine} * Larin Alexsandr{e.NewLine} *{e.NewLine}");
+			c.Write($"{e.NewLine} *{e.NewLine} * Randomize File Lines version {Assembly.GetEntryAssembly().GetName().Version}{e.NewLine} * https://computerraru.ru/software/rfl{e.NewLine} * Larin Alexsandr{e.NewLine} *{e.NewLine}");
 			c.ForegroundColor = ConsoleColor.White;
 			if (!args.Length.Equals(1))
 			{
-				c.WriteLine($"{e.NewLine}   Ошибочка...{e.NewLine}   Укажите первым параметром имя файла, например:{e.NewLine}{e.NewLine}   > RandomizeFileLines.exe worktodo.txt{e.NewLine}");
+				c.WriteLine($"{e.NewLine}   Ошибочка...{e.NewLine}   Укажите первым параметром имя файла, например:{e.NewLine}{e.NewLine}   CMD> RandomizeFileLines.exe worktodo.txt{e.NewLine}");
 				c.ForegroundColor = ConsoleColor.Gray;
 				c.WriteLine("   Press a key to exit...");
 				c.ReadKey();
