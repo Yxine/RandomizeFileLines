@@ -11,11 +11,12 @@ You can just start the program without any command-line arguments and you'll get
 # History
 
 **2018-03-25**
-Software was updated to .NET Framework 4.7.1, and added .NET Core 2 version.
+
+Software was updated to .NET Framework 4.7.1, and .NET Core 2 version was added.
 
 # Join my team
 
-Join my [GIMPS](http://www.mersenne.org) team ComputerraRU **[here](https://computerraru.ru)**.
+Join my [GIMPS](https://www.mersenne.org) team ComputerraRU **[here](https://computerraru.ru)**.
 
 # Links
 - [Twitter][tw]
