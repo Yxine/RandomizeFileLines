@@ -10,9 +10,17 @@ You can just start the program without any command-line arguments and you'll get
 
 # History
 
+**2018-08-20**
+
+First version, .NET Framework 4.7.2 and Core 2.1.0
+
 **2018-03-25**
 
-Software was updated to .NET Framework 4.7.1, and .NET Core 2 version was added.
+Software was updated to .NET Framework 4.7.2, and .NET Core 2.1.0 version was added.
+
+**2017**
+
+First version, .NET Framework 4.7
 
 # Join my team
 

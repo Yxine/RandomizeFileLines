@@ -2,16 +2,18 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <AssemblyName>RandomizeFileLines</AssemblyName>
     <RootNamespace>RandomizeFileLines</RootNamespace>
     <StartupObject>RandomizeFileLines.Program</StartupObject>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
-    <Version>2018.3.25</Version>
+    <Version>2018.8.20</Version>
     <Authors>Larin Alexsandr</Authors>
     <Company>Yxinity Group</Company>
     <Copyright>Copyright © 2016-2018, Yxinity Group</Copyright>
     <PackageTags>random file lines sorting</PackageTags>
+    <AssemblyVersion>2018.8.20.210</AssemblyVersion>
+    <FileVersion>2018.8.20.210</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -29,7 +31,7 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <DebugType>none</DebugType>
     <DebugSymbols>false</DebugSymbols>
-    <OutputPath>W:\Projects\RandomizeFileLines\Compiled\Core\netcoreapp2.0\</OutputPath>
+    <OutputPath>W:\Projects\RandomizeFileLines\Compiled\Core\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

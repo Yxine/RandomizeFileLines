@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Linq;
 using System.IO;
 using System.Reflection;
 using c = System.Console;
 using e = System.Environment;
 
+// ReSharper disable once CheckNamespace
 namespace RandomizeFileLines
 {
 
@@ -32,9 +32,9 @@ namespace RandomizeFileLines
 			if (args.Length.Equals(0)) return;
 			var file = args[0];
 			if (!File.Exists(file)) return;
-			// must be here, outside the expression!
-			var r = new Random();
-			File.WriteAllLines(file, File.ReadAllLines(file).OrderBy(x => r.Next()).ToArray());
+			var s = File.ReadAllLines(file);
+			Array.Sort(s, StringComparer.InvariantCulture);
+			File.WriteAllLines(file, s);
 		}
 
 	}
