@@ -10,6 +10,10 @@ You can just start the program without any command-line arguments and you'll get
 
 # History
 
+**2018-12-11**
+
+Second version, folders optimization
+
 **2018-08-20**
 
 First version, .NET Framework 4.7.2 and Core 2.1.0
