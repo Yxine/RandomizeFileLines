@@ -12,7 +12,11 @@ You can just start the program without any command-line arguments and you'll get
 
 **2019-04-25**
 
+<<<<<<< HEAD
 Software was updated to .NET Framework 4.8 and .NET Core 2.2.4.
+=======
+Software was updated to .NET Framework 4.8 and .NET Core 2.2.0.
+>>>>>>> 057ed45976f99f57884764357d6eab2d0535b212
 
 **2018-12-11**
 
