@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2003
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomFileLines", "RandomizeFileLines.x64.csproj", "{B0C7DC93-2AC5-4959-84C7-0B4C9953F398}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomizeFileLines.x64", "RandomizeFileLines.x64.csproj", "{B0C7DC93-2AC5-4959-84C7-0B4C9953F398}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0385EB26-A148-415E-8ED6-9ACC13003D98}
+		SolutionGuid = {20430F2F-C6BB-4317-A55E-6074BCCF352C}
 	EndGlobalSection
 EndGlobal
