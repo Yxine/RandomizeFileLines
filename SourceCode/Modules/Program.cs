@@ -1,6 +1,6 @@
 ﻿using System;
-using System.IO;
-using System.Reflection;
+using f = System.IO.File;
+using a = System.Reflection.Assembly;
 using c = System.Console;
 using e = System.Environment;
 
@@ -19,7 +19,7 @@ namespace RandomizeFileLines
 			c.Clear();
 			c.Title = "Randomize File Lines";
 			c.CursorVisible = false;
-			c.Write($"{e.NewLine} *{e.NewLine} * Randomize File Lines version {Assembly.GetEntryAssembly().GetName().Version}{e.NewLine} * https://computerraru.ru/software/rfl{e.NewLine} * Larin Alexsandr{e.NewLine} *{e.NewLine}");
+			c.Write($"{e.NewLine} *{e.NewLine} * Randomize File Lines version {a.GetEntryAssembly().GetName().Version}{e.NewLine} * https://computerraru.ru/software/rfl{e.NewLine} * Larin Alexsandr{e.NewLine} *{e.NewLine}");
 			c.ForegroundColor = ConsoleColor.White;
 			if (!args.Length.Equals(1))
 			{
@@ -29,12 +29,12 @@ namespace RandomizeFileLines
 				c.ReadKey();
 				return;
 			}
-			if (args.Length.Equals(0)) return;
+			if (args.Length == 0) return;
 			var file = args[0];
-			if (!File.Exists(file)) return;
-			var s = File.ReadAllLines(file);
+			if (!f.Exists(file)) return;
+			var s = f.ReadAllLines(file);
 			Array.Sort(s, StringComparer.InvariantCulture);
-			File.WriteAllLines(file, s);
+			f.WriteAllLines(file, s);
 		}
 
 	}

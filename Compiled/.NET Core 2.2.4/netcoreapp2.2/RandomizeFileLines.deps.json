@@ -1,12 +1,12 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v2.1",
+    "name": ".NETCoreApp,Version=v2.2",
     "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v2.1": {
-      "RandomizeFileLines/2018.12.11": {
+    ".NETCoreApp,Version=v2.2": {
+      "RandomizeFileLines/2019.4.25": {
         "runtime": {
           "RandomizeFileLines.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "RandomizeFileLines/2018.12.11": {
+    "RandomizeFileLines/2019.4.25": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
