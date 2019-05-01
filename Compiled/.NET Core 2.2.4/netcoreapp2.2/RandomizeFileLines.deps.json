@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "RandomizeFileLines/2019.4.25": {
+      "RandomizeFileLines/2019.5.1": {
         "runtime": {
           "RandomizeFileLines.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "RandomizeFileLines/2019.4.25": {
+    "RandomizeFileLines/2019.5.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
