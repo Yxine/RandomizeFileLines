@@ -1,9 +1,5 @@
-/SourceCode/.NET 4.8 x86/obj
-/SourceCode/.NET 4.8 x86/bin
-/SourceCode/.NET 4.8 x86/.vs
-/SourceCode/.NET 4.8 x64/obj
-/SourceCode/.NET 4.8 x64/bin
-/SourceCode/.NET 4.8 x64/.vs
-/SourceCode/.NET Core 2.2.4/obj
-/SourceCode/.NET Core 2.2.4/bin
-/SourceCode/.NET Core 2.2.4/.vs
+/SourceCode/obj
+/SourceCode/bin
+/SourceCode/.vs
+/SourceCode/RandomizeFileLines.xml
+/SourceCode/RandomizeFileLines.csproj.user
