@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <StartupObject>RandomizeFileLines.Program</StartupObject>
     <ApplicationIcon>icon.ico</ApplicationIcon>
-    <Version>2021.10.17.1</Version>
-    <AssemblyVersion>2021.10.17.5</AssemblyVersion>
+    <Version>2021.12.18.1</Version>
+    <AssemblyVersion>2021.12.18.5</AssemblyVersion>
     <FileVersion>2021.10.17.5</FileVersion>
     <Authors>Larin Aleksandr</Authors>
     <Company>Yxinity Group</Company>
@@ -16,11 +16,12 @@
     <RepositoryUrl>https://github.com/Yxine/RandomizeFileLines</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>random file sorting</PackageTags>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>DEBUG</DefineConstants>
-    <DocumentationFile>A:\Projects\Software\RandomizeFileLines\SourceCode\RandomizeFileLines.xml</DocumentationFile>
+    <DocumentationFile>A:\Projects\Software\RandomizeFileLines\Source\RandomizeFileLines.xml</DocumentationFile>
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>

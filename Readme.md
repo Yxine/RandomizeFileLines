@@ -1,6 +1,6 @@
 # Randomize File Lines
 
-> Version 2021.10.17.1
+> Version 2021.12.18.1
 
 Console software for sorting file lines randomly.
 
@@ -14,9 +14,9 @@ You can just start the program without any command-line arguments and you'll get
 
 ## [History](history.md)
 
-### 2021-10-17
+### 2021-12-18
 
-.NET 5.0 version.
+.NET 6.0 version.
 
 ## Join my team
 

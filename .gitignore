@@ -1,5 +1,5 @@
-/SourceCode/obj
-/SourceCode/bin
-/SourceCode/.vs
-/SourceCode/RandomizeFileLines.xml
-/SourceCode/RandomizeFileLines.csproj.user
+/source/obj
+/source/bin
+/source/.vs
+/source/RandomizeFileLines.xml
+/source/RandomizeFileLines.csproj.user

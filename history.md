@@ -1,5 +1,9 @@
 # [Randomize File Lines](Readme.md) \ History
 
+### 2021-12-18
+
+.NET 6.0 version.
+
 ## 2021-10-17
 
 .NET 5.0 version.
